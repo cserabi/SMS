@@ -1,0 +1,21 @@
+.sign_up_color {
+  background-color: #10007a;
+  color: white;
+}
+
+.sign_up_color:hover {
+  background-color: #FF5400;
+  color: white;
+}
+
+.submit_btn {
+  background-color: #10007a;
+  color: white;
+
+}
+
+.submit_btn:hover {
+  background-color: #FF5400;
+  color: white;
+
+}

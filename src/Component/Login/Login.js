@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router';
 import useAuth from '../Hook/useAuth';
+import './Login.css';
 
 
 
@@ -41,14 +42,14 @@ const Login = () => {
                 type='email'
                 onChange={handleOnChange} className="form-control mt-4 " placeholder='email' />
               <input type="password" name="password" onChange={handleOnChange} className="form-control " placeholder='password' />
-              <input type="submit" className="form-control text-center ms-4 mt-4 text-light bg-primary w-50" />
+              <input type="submit" className="form-control text-center ms-4 mt-4 text-light submit_btn w-50 " />
 
 
             </form>
             <Card.Body className="shadow">
               <Card.Title>Create Account with Google</Card.Title>
 
-              <Button onClick={signInWithGoogle} variant="primary">Sign With Google</Button>
+              <Button onClick={signInWithGoogle} className="sign_up_color" >Sign With Google</Button>
             </Card.Body>
 
           </Card>

@@ -1,4 +1,23 @@
-.image-bg
-{
-  border-radius: 50%;
+.review-color {
+  color: #10007A;
+}
+
+.text-dark-pro {
+  color: #FF5400 !important;
+}
+
+.review-box {
+  background-color: rgb(228, 229, 255);
+  height: 350px;
+
+  ;
+}
+
+.profile-images {
+
+  width: 130px;
+  height: 120px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
 }

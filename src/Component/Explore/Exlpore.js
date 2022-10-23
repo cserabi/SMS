@@ -33,7 +33,7 @@ const Explore = ({ slice }) => {
                 <p className="card-text font-bold"> Mobile Name : {productlist.Name}</p>
                 <p className="card-text"> Description : {productlist.des}</p>
                 <p className="card-text"> Warranty : {productlist.warranty}</p>
-                <p className="card-text"> price : {productlist.price} $</p>
+                <p className="card-text"> price : {productlist.price} tk</p>
 
                 <Link to={`/purchase/${productlist._id}`}  ><button className="btn btn-primary">Order Now</button> </Link>
 

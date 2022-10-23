@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Form } from 'react-bootstrap';
 import Dashboard from '../Dashboard';
+import './AddProducts.css';
 
 
 const AddProducts = () => {

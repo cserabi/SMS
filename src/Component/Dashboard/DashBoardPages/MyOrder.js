@@ -36,6 +36,8 @@ const MyOrder = () => {
 
   //cancel personal Orders 
   const handleDelete = id => {
+
+    console.log(id);
     const url = `http://localhost:5000/orders/${id}`;
     fetch(url, {
       method: 'DELETE'

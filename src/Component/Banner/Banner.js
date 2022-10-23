@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import './Banner.css';
 
 const Banner = () => {
   return (
@@ -11,21 +12,11 @@ const Banner = () => {
 
 
           <Carousel>
+
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://i.postimg.cc/zBGpgmFY/Banner-1.jpg"
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <h3 className="Text-custom-pro w-25">Best Mobile </h3>
-                <p className="Text-custom-pro w-50">Amazing quality with Minimum price</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://i.postimg.cc/ncD27GBr/Banner-2.jpg"
+                src="https://i.postimg.cc/c4Knp90W/Banner-01.jpg"
                 alt="Second slide"
               />
 
@@ -37,13 +28,26 @@ const Banner = () => {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://i.postimg.cc/131HKVrH/Banner-3.jpg"
+                src="https://i.postimg.cc/XNrKW7kt/Banner-02.jpg"
                 alt="Third slide"
               />
 
               <Carousel.Caption>
-                <h3 className="Text-custom" >Buy Smart Phone</h3>
-                <p className="Text-custom" >You can buy any brand smart phone from here.</p>
+                <h3 className="Text-custom-pro w-25">Manage Your Semester <br>
+                </br>
+                  As per your Schedule</h3>
+
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://i.postimg.cc/ht53S370/Banner-03.jpg"
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3 className="Text-custom-pro-new w-25">Publish Your Routine , Notice and Check Result </h3>
+
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

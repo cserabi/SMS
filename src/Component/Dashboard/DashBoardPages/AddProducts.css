@@ -1,0 +1,13 @@
+.btn-organization {
+  background-color: #10007A;
+  color: white;
+  border: none;
+
+
+}
+
+.btn-organization:hover {
+  background-color: #FF5400;
+  color: white;
+  border: none;
+}

@@ -18,7 +18,7 @@ const Header = () => {
 
     <Navbar collapseOnSelect expand="lg" className="header-container bg-color-design" sticky="top">
       <Container >
-        <Navbar.Brand href="#home"><img style={{ width: '60px' }} src="https://i.postimg.cc/1zfprb1H/Mobile-Hunter-logo.png" alt="" /></Navbar.Brand>
+        <Navbar.Brand href="#home"><img style={{ width: '100px', height: '50px' }} src="https://i.postimg.cc/LsmWnM0j/SMS-new.png" alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto ">
@@ -27,12 +27,13 @@ const Header = () => {
             {/* <Nav.Link className="text-light" as={Link} to="/topbanner">Top Banner</Nav.Link> */}
 
 
-            <Nav.Link className="text-light" as={Link} to="/explore">Explore</Nav.Link>
+            {/* <Nav.Link className="text-light" as={Link} to="/explore">Explore</Nav.Link> */}
+            <Nav.Link className="text-light" as={Link} to="/Schedule">Schedule</Nav.Link>
             <Nav.Link className="text-light" as={Link} to="/review">Review </Nav.Link>
             <Nav.Link className="text-light" as={Link} to="/faq">FAQ</Nav.Link>
 
             <Nav.Link className="text-light" as={Link} to="/dashboard">Dashboard</Nav.Link>
-
+            <Nav.Link className="text-light" as={Link} to="/results">Results</Nav.Link>
             <Nav.Link className="text-light" as={Link} to="/contactUs">Contact Us</Nav.Link>
           </Nav>
           <Nav>

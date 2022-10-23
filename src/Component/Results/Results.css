@@ -1,0 +1,37 @@
+.result-box {
+  margin-top: 20px;
+  background-color: #10007a;
+  margin-bottom: 20px;
+
+}
+
+.result-box h5 {
+  color: white;
+  padding-top: 20px;
+
+}
+
+.result-box input {
+  margin-top: 20px;
+}
+
+.btn-custom {
+  background-color: #FF5400;
+  font-weight: 500;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #ffffff;
+  font-weight: 500;
+  color: #FF5400;
+}
+
+
+
+
+
+.box {
+  color: red;
+  font-weight: 700;
+}

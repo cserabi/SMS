@@ -15,22 +15,22 @@ const FAQ = () => {
 
           <Accordion defaultActiveKey="0" flush>
             <Accordion.Item eventKey="0">
-              <Accordion.Header>Which service provide mobile hunter agency ? </Accordion.Header>
+              <Accordion.Header>How can i can create class post here ? </Accordion.Header>
               <Accordion.Body>
-                Mainly we are Mobile selling agency .We focus on selling Smart phone.
+                At first make an account and go through dashboard then get add post option.
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-              <Accordion.Header>Can i get service you from outside Dhaka or Bangladesh ?</Accordion.Header>
+              <Accordion.Header>Which types of information we will get ?</Accordion.Header>
               <Accordion.Body>
-                Yes , you can place order any where in the world not only Dhaka .
+                Here , you will see class , exam and result of Department of CSE , HSTU.
               </Accordion.Body>
             </Accordion.Item>
 
             <Accordion.Item eventKey="2">
-              <Accordion.Header>How much will be delivery charge per product? </Accordion.Header>
+              <Accordion.Header>How can i get my result? </Accordion.Header>
               <Accordion.Body>
-                We will take delivery charge 5$ per product .you can receive product from any where.
+                Please search with your valid Student ID
               </Accordion.Body>
             </Accordion.Item>
           </Accordion>

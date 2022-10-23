@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
+
 import Banner from './Component/Banner/Banner';
 import Contact from './Component/ContactUs/Contact';
 import AuthProvider from './Component/Context/AuthProvider';
@@ -9,12 +10,14 @@ import PrivateRoute from './Component/Context/PrivateRoute';
 import Dashboard from './Component/Dashboard/Dashboard';
 import AddProducts from './Component/Dashboard/DashBoardPages/AddProducts';
 import AddReview from './Component/Dashboard/DashBoardPages/AddReview';
+import AddSchedule from './Component/Dashboard/DashBoardPages/AddSchedule';
 import MakeAdmin from './Component/Dashboard/DashBoardPages/MakeAdmin';
 import ManageOrders from './Component/Dashboard/DashBoardPages/ManageOrders';
 import ManageProduct from './Component/Dashboard/DashBoardPages/ManageProduct';
 import MyOrder from './Component/Dashboard/DashBoardPages/MyOrder';
 import Pay from './Component/Dashboard/DashBoardPages/Pay';
 import Explore from './Component/Explore/Exlpore';
+
 
 
 
@@ -26,19 +29,27 @@ import Login from './Component/Login/Login';
 import Register from './Component/Login/Register';
 import Productadd from './Component/Productadd';
 import Purchase from './Component/Purchase/Purchase';
+import Results from './Component/Results/Results';
 import Review from './Component/Review/Review';
+import Schedule from './Component/Schedule/Schedule';
 import Subscriber from './Component/Subscriber/Subscriber';
 
 function App() {
+
   return (
     <div className="App">
+
+
 
       <AuthProvider>
 
 
         <Router>
 
+
+
           <Header></Header>
+
 
           <Switch>
             <Route exact path='/'>
@@ -53,8 +64,11 @@ function App() {
               <Banner></Banner>
             </Route>
 
-            <PrivateRoute path='/explore'>
+            {/* <PrivateRoute path='/explore'>
               <Explore></Explore>
+            </PrivateRoute> */}
+            <PrivateRoute path='/Schedule'>
+              <Schedule></Schedule>
             </PrivateRoute>
 
 
@@ -72,6 +86,11 @@ function App() {
 
             <PrivateRoute path='/dashboard'>
               <Dashboard></Dashboard>
+
+            </PrivateRoute>
+
+            <PrivateRoute path='/results'>
+              <Results></Results>
 
             </PrivateRoute>
             <Route path="/purchase/:productId">
@@ -103,6 +122,10 @@ function App() {
             </Route>
             <Route path='/addProducts'>
               <Productadd></Productadd>
+            </Route>
+
+            <Route path='/addSchedule'>
+              <AddSchedule></AddSchedule>
             </Route>
 
             <Route path='/admin'>
