@@ -78,7 +78,8 @@ const Schedule = ({ slice }) => {
 
                 <p className="card-text"> <i class="fa-solid fa-user"></i> <span>Posted By :</span> {ScheduleList.Post} <i class="fa-solid fa-hexagon-check"></i></p>
 
-                <Button className="updatebtn">Update</Button> <Button className="deletebtn" onClick={() => handleDeleteSchedule(ScheduleList._id)}>Delete</Button>
+                {/* <Button className="updatebtn">Update</Button>  */}
+                <Button className="deletebtn" onClick={() => handleDeleteSchedule(ScheduleList._id)}>Delete</Button>
 
               </div>
             </div>

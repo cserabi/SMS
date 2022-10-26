@@ -28,10 +28,30 @@
 }
 
 
-
+.bg-card {
+  background-color: #FF5400;
+  margin-bottom: 20px;
+  border: 1px solid #10007A;
+}
 
 
 .box {
   color: red;
   font-weight: 700;
+}
+
+.congra-text-pro {
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.congra-text {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #10007A;
+  padding: 5px 10px;
 }

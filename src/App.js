@@ -9,6 +9,7 @@ import AuthProvider from './Component/Context/AuthProvider';
 import PrivateRoute from './Component/Context/PrivateRoute';
 import Dashboard from './Component/Dashboard/Dashboard';
 import AddProducts from './Component/Dashboard/DashBoardPages/AddProducts';
+import AddResult from './Component/Dashboard/DashBoardPages/AddResult';
 import AddReview from './Component/Dashboard/DashBoardPages/AddReview';
 import AddSchedule from './Component/Dashboard/DashBoardPages/AddSchedule';
 import MakeAdmin from './Component/Dashboard/DashBoardPages/MakeAdmin';
@@ -127,6 +128,11 @@ function App() {
             <Route path='/addSchedule'>
               <AddSchedule></AddSchedule>
             </Route>
+
+            <Route path='/addResult'>
+              <AddResult></AddResult>
+            </Route>
+
 
             <Route path='/admin'>
               <MakeAdmin></MakeAdmin>
