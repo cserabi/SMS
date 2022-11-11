@@ -74,7 +74,7 @@ const Footer = () => {
         </div>
 
         <div className="col-md-4 text-center">
-          <h5>Copyright &copy; 2021 SMS, HSTU , Bangladesh</h5>
+          <h5>Copyright &copy; 2022 SMS, HSTU , Bangladesh</h5>
         </div>
 
         <div className="col-md-4">
