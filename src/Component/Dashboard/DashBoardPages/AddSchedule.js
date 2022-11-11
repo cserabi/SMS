@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Form } from 'react-bootstrap';
 import Dashboard from '../Dashboard';
+import './AddSchedule.css';
 
 
 
@@ -120,7 +121,7 @@ const AddSchedule = () => {
                 <label htmlFor="floatingPasswordCustom">Please Write the writter name of the Post </label>
               </Form.Floating>
 
-              <input to='/addSchedule' type="submit" value="Submit" className="btn btn-primary btn-organization p-3 w-100 mb-3" />
+              <input to='/addSchedule' type="submit" value="Submit" className="btn btn-primary btn-add-submit p-3 w-100 mb-3" />
             </Form>
 
           </div>

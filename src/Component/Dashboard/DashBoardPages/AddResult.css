@@ -1,0 +1,11 @@
+.btn-add-submit {
+  color: white;
+  background-color: #FF5400;
+  border: 0px;
+}
+
+.btn-add-submit:hover {
+  color: white;
+  background-color: #10007a !important;
+  border: 0px;
+}

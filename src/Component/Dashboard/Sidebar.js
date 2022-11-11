@@ -12,9 +12,9 @@ const Sidebar = () => {
 
         {!admin && <div>
 
-          <Nav.Link className='list-group-item' as={Link} to="/mypost">My Post</Nav.Link>
+          {/* <Nav.Link className='list-group-item' as={Link} to="/mypost">My Post</Nav.Link> */}
           <Nav.Link className='list-group-item' as={Link} to="/addreview">Add Review</Nav.Link>
-          <Nav.Link className='list-group-item' as={Link} to="/pay">Pay</Nav.Link>
+          <Nav.Link className='list-group-item' as={Link} to="/paidResources">Paid Resources</Nav.Link>
 
           <button style={{ width: '100%', textAlign: 'left' }} className="list-group-item" onClick={() => logOut()}>Logout</button>
 
@@ -25,7 +25,8 @@ const Sidebar = () => {
           <Nav.Link className='list-group-item' as={Link} to="/addProducts">Add a Products</Nav.Link> */}
           <Nav.Link className='list-group-item' as={Link} to="/addSchedule">Add a Schedule</Nav.Link>
           <Nav.Link className='list-group-item' as={Link} to="/addResult">Add a Results</Nav.Link>
-          <Nav.Link className='list-group-item' as={Link} to="/manageSchedule">Manage Schedule</Nav.Link>
+          <Nav.Link className='list-group-item' as={Link} to="/MyPost">My Post</Nav.Link>
+
           <Nav.Link className='list-group-item' as={Link} to="/admin">Make Admin</Nav.Link>
 
           <button style={{ width: '100%', textAlign: 'left' }} className="list-group-item" onClick={() => logOut()}>Logout</button>

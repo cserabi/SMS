@@ -1,0 +1,15 @@
+.text-title {
+  color: #FF5400 !important;
+}
+
+.btn-name {
+  background-color: #FF5400;
+  color: rgb(255, 255, 255);
+  border: 0px;
+}
+
+.btn-name:hover {
+  background-color: #0d0054;
+  color: rgb(255, 255, 255);
+  border: 0px;
+}

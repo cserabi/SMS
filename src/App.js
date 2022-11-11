@@ -8,16 +8,16 @@ import Contact from './Component/ContactUs/Contact';
 import AuthProvider from './Component/Context/AuthProvider';
 import PrivateRoute from './Component/Context/PrivateRoute';
 import Dashboard from './Component/Dashboard/Dashboard';
-import AddProducts from './Component/Dashboard/DashBoardPages/AddProducts';
 import AddResult from './Component/Dashboard/DashBoardPages/AddResult';
 import AddReview from './Component/Dashboard/DashBoardPages/AddReview';
 import AddSchedule from './Component/Dashboard/DashBoardPages/AddSchedule';
 import MakeAdmin from './Component/Dashboard/DashBoardPages/MakeAdmin';
 import ManageOrders from './Component/Dashboard/DashBoardPages/ManageOrders';
 import ManageProduct from './Component/Dashboard/DashBoardPages/ManageProduct';
+
 import MyOrder from './Component/Dashboard/DashBoardPages/MyOrder';
 import Pay from './Component/Dashboard/DashBoardPages/Pay';
-import Explore from './Component/Explore/Exlpore';
+
 
 
 
@@ -33,7 +33,9 @@ import Purchase from './Component/Purchase/Purchase';
 import Results from './Component/Results/Results';
 import Review from './Component/Review/Review';
 import Schedule from './Component/Schedule/Schedule';
-import Subscriber from './Component/Subscriber/Subscriber';
+import PaidResources from './Component/Dashboard/DashBoardPages/PaidResources';
+import MyPost from './Component/Dashboard/DashBoardPages/MyPost';
+
 
 function App() {
 
@@ -76,8 +78,8 @@ function App() {
             <Route path='/login'>
               <Login></Login>
             </Route>
-            <Route path='/pay'>
-              <Pay></Pay>
+            <Route path="/MyPost">
+              <MyPost></MyPost>
             </Route>
 
             <Route path='/Register'>
@@ -115,6 +117,15 @@ function App() {
               <ManageOrders></ManageOrders>
 
             </Route>
+            <Route path="/paidResources">
+              <PaidResources>
+
+              </PaidResources>
+
+            </Route>
+
+
+
             <Route path='/faq'>
               <FAQ></FAQ>
             </Route>
